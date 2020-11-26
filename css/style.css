@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* html {
+   font-size: 62.5%;
+} */
+body {
+  margin-top: 105px;
+}
+
+.navbar {
+  -webkit-box-shadow: 2px 2px 5px #3293a6;
+          box-shadow: 2px 2px 5px #3293a6;
+  opacity: .9;
+  background: #fff;
+}
+
+.navbar .nav-item {
+  font-size: 1.3rem;
+}
+
+.navbar .nav-item:not(:last-child) {
+  padding-right: 1.4rem;
+}
+
+#showcase {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 146, 166, 0.8)), to(rgba(50, 146, 166, 0.8))), url(../img/mountains.jpg);
+  background: linear-gradient(rgba(50, 146, 166, 0.8), rgba(50, 146, 166, 0.8)), url(../img/mountains.jpg);
+  min-height: 600px;
+  background-size: cover;
+}
+
+#showcase img {
+  height: 35rem;
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+
+#authors img {
+  margin-top: -50px;
+}
+
+#authors .card:hover {
+  background: #3293a6;
+  color: #fff;
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  -webkit-box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.6);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+#authors .card:hover .fab {
+  color: #fff;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+@media only screen and (max-width: 768px) {
+  #showcase h1 {
+    font-size: 4rem;
+  }
+  .mb-res {
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .mb-resp {
+    margin-bottom: 3rem;
+  }
+}
